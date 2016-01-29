@@ -1,0 +1,27 @@
+body {
+  background-color: #000000;
+  height: 100%;
+}
+
+.crocContainer {
+  height: 500px;
+  background: url() no-repeat center;
+}
+
+.directionArrows {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.directionArrows a {
+  /*prevents whitespace between links*/
+  font-size: 0;
+}
+
+.arrow {
+  border-radius: 50%;
+  padding: 0 10px;
+  opacity: 0.75;
+}
